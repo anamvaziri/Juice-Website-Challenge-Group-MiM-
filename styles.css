@@ -1,32 +1,85 @@
-body {
-    font-family: Arial, sans-serif;
+/* Base Reset */
+•⁠  ⁠{
     margin: 0;
     padding: 0;
-    background-color: #fff9f0;
-}
-
-header {
-    background-color: #ffa726;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f8fff8;
+    color: #333;
     padding: 20px;
+  }
+  
+  header {
     text-align: center;
-}
-
-nav a {
-    margin: 0 10px;
-    color: white;
+    padding: 40px 20px;
+    background: #e6ffe6;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #007f5f;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav a {
+    margin: 0 15px;
     text-decoration: none;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #ffe0b2;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
+    color: #2b9348;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    color: #007f5f;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #cce5cc;
+    padding-bottom: 5px;
+  }
+  
+  .menu-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .menu-img {
     width: 100%;
-    bottom: 0;
-}
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
