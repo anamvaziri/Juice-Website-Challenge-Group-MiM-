@@ -81,4 +81,22 @@ body {
     padding: 15px;
     font-size: 0.9rem;
   }
+  .logo-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
   
+  .logo {
+    height: 60px;
+    width: auto;
+  }
+  
+  .drinks-img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
